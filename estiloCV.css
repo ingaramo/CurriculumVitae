@@ -1,0 +1,95 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    background-image: url("imgs/fondo.jpg")
+}
+html,body{
+    margin: 0;
+}
+p { 
+    margin:0;
+}
+.navegacion {
+    box-sizing:border-box;
+    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    width: 30%;
+    height: 93%;
+    text-align: center;
+    background-color:grey;
+    margin: 2%;
+    padding: 0;
+    min-width: 164px;
+}
+
+.tabs{
+    margin: 2%;
+    margin-left: 35%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: lightgrey;
+    border: 10px solid lightskyblue;
+}
+.lista-nav{
+    list-style: none;
+    padding:0;
+}
+.lista-tab{
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+.lista-nav__item a {
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.lista-nav__item{
+    text-transform: uppercase;
+    margin:5%;
+    transition: background-color .5s;
+    border-radius: 5px;
+}
+.titulo-tab{
+    font-weight: 800;
+}
+.subtitulo-tab{
+    font-style: italic;
+    text-align: left;
+    padding: 1%;
+    margin: 0px;
+}
+.ph-carnet{
+    display:block;
+    width:90%;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.resaltador{
+    font-weight: bold;   
+}
+.lista-nav__item:hover{
+    background-color:lightgrey;
+}
+#formacion .lista-tab{
+    text-align: justify;
+}
+.lista-tab__item{
+    display: inline-block;
+    text-align: left;
+    margin: 5px 10px;
+}
+.portfolio__icon{
+    display: inline-block;
+    width: 100%;
+}
+.lista-portfolio__item{
+    display: inline-block;
+    width: 21%;
+}
